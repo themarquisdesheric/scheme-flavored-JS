@@ -1,6 +1,4 @@
 # scheme-flavored-JS
-Wondering what JS would look like under a heavy dose of Scheme...
+JavaScript was heavily influenced by [Scheme](https://en.wikipedia.org/wiki/Scheme_(programming_language)), a language in the [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language)) family. What would it look like if we kept turning up the Scheme dial?
 
-## Important Note
-
-The `car` and `cdr` commands from Scheme have been renamed to `first` and `rest` in this code, respectively. This was done for semantic purposes.
+This means using primitives like `car` and `cdr` (which I'll call `first` and `rest` for semantic purposes), and avoiding the use of statements, since lisps are trees of expressions.
